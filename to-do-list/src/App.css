@@ -1,0 +1,8 @@
+@import "~react-modal/dist/react-modal.min.css";
+@import "~react-toastify/dist/ReactToastify.css";
+
+
+
+body{
+  font-family: sans-serif;
+}
