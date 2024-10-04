@@ -66,6 +66,7 @@ function App() {
           <Route path="/cadastrar" element={
             <ContainerApp>
               <NavBar>
+                <Link to="/">Página Inicial</Link>| {" "}
                 <Link to="/pendentes">Tarefas Pendentes ({tarefasPendentes.length})</Link>  | {" "}
                 <Link to="/concluidas">Tarefas Concluídas</Link>
               </NavBar>
